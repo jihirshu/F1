@@ -11,7 +11,7 @@ cd to a location of your choice. I will use ~/Desktop for example.
 	cd ~/Desktop
 	git clone https://github.com/jihirshu/F1.git
 	cd F1
-	virtualen--python=<Path/To/Your/Python3> env
+	virtualenv --python=<Path/To/Your/Python3> env
 	source env/bin/activate
 	make install
 	python API.py
